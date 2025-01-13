@@ -33,6 +33,14 @@
     transition: .3s;
 }
 
+.logo-img {
+    height: 50px;
+}
+
+.logo:hover {
+    color: #192128;
+}
+
 .navbar a {
     font-size: 18px;
     color: #ffffff;
@@ -52,6 +60,17 @@
     display: flex;
     align-items: center;
     padding: 0 10%;
+}
+
+
+.home-logo {
+    width: 10vh;
+    overflow: hidden;
+    margin-top: 1rem;
+    margin-bottom: 37px;
+    align-content: right;
+    
+    /* box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); */
 }
 
 .home-content {
@@ -119,4 +138,46 @@
 .btn-box a:hover::before {
     width: 100%;
 
+}
+
+.about {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+}
+
+.about-content {
+    max-width: 600px;
+}
+
+.about-content h2 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.about-content p {
+    font-size: 16px;
+    margin: 20px 0 40px;
+}
+
+.experience {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+}
+
+.exp-block {
+    height: 15vh;
+    display: flex;
+    align-items: left;
+    padding: 0 2%;
+}
+
+.projects {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
 }
